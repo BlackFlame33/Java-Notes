@@ -12,7 +12,7 @@ class BooksTestDrive {
         myBooks[0].title = "The Grapes of Java";
         myBooks[1].title = "The Java Gatsby";
         myBooks[2].title = "The Java Cookbook";
-        my
+        myBooks[0].author = "bob";
         myBooks[1].author = "sue";
         myBooks[2].author = "ian";
 
