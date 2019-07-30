@@ -35,5 +35,14 @@ class GoodDogTestDrive {
         System.out.println("Dog two: " + two.getSize());
         one.bark();
         two.bark();
+        GoodDog[] dog = new GoodDog[2];
+        dog[0] = new GoodDog();
+        dog[1] = new GoodDog();
+        dog[0].setSize(20);
+        dog[1].setSize(40);
+        System.out.println("Dog one: " + dog[0].getSize());
+        System.out.println("Dog two: " + dog[1].getSize());
+        dog[0].bark();
+        dog[1].bark();
     }
 }
